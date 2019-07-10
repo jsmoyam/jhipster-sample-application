@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "prototipo",
+    "packageName": "com.bbva.opplus.application",
+    "packageFolder": "com/bbva/opplus/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.2",
+    "jwtSecretKey": "MDEwMDNjMDY2MGY0NjAxM2YwN2UzZmIyOWIxZTAwMDBmYjY1NjlmYzFkMWM4YThmMmYwMzRiZjMzNGZjOThkMWY2OTEyNGRlMzc4NDUzOGEyNTY1YzlkMGI3OTQ0Y2M2ODZhN2I4ZWJkNzQzMzFlZmU1NTU2YTk4NmZlNjcwM2M=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "jsmoyam",
+  "repository-name": "jhipster-sample-application"
+}
